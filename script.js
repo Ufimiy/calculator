@@ -14,8 +14,8 @@ let multiply = document.querySelector(".multiply");
 let divide = document.querySelector(".divide");
 
 numbers.onclick = function (event) {
-    alert(document.body.innerText);
-    alert(document.body.innerHTML);
+//    alert(document.body.innerText);
+ //   alert(document.body.innerHTML);
     let target = event.target;
     /* в переменной таргет хранится элемент на который нажали*/
     if (target.classList.contains("digit") == false) {
